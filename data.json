@@ -1,0 +1,102 @@
+{
+  "nodes":["s","m","e","x","p","k","h","i", "a", "b", "c", "d"],
+  "edges1":[
+    {
+      "start": "s",
+      "end": "i",
+      "cost": 3
+    },
+    {
+      "start": "i",
+      "end": "e",
+      "cost": 7
+    },
+    {
+      "start": "s",
+      "end": "m",
+      "cost": 20
+    },
+    {
+      "start": "m",
+      "end": "e",
+      "cost": 8
+    },
+    {
+      "start": "m",
+      "end": "i",
+      "cost": 5
+    },
+    {
+      "start": "s",
+      "end": "x",
+      "cost": 8
+    },
+    {
+      "start": "x",
+      "end": "p",
+      "cost": 2
+    },
+    {
+      "start": "p",
+      "end": "e",
+      "cost": 4
+    },
+    {
+      "start": "i",
+      "end": "p",
+      "cost": 6
+    },
+    {
+      "start": "s",
+      "end": "k",
+      "cost": 9
+    },
+    {
+      "start": "k",
+      "end": "h",
+      "cost": 2
+    },
+    {
+      "start": "h",
+      "end": "e",
+      "cost": 10
+    },
+    {
+      "start": "h",
+      "end": "m",
+      "cost": 1
+    }
+  ],
+  "edges":[
+    {
+      "start": "a",
+      "end": "b",
+      "cost": 6
+    },
+    {
+      "start": "b",
+      "end": "d",
+      "cost": 2
+    },
+    {
+      "start": "a",
+      "end": "d",
+      "cost": 17
+    },
+    {
+      "start": "a",
+      "end": "c",
+      "cost": 3
+    },
+    {
+      "start": "c",
+      "end": "d",
+      "cost": 1
+    }
+  ],
+  "pheromone":0.5,
+  "alpha": 1,
+  "betha": 0.7,
+  "pheromoneEvaporation": 0.5,
+  "q": 1
+}
